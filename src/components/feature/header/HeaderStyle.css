@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blanchedalmond;
+    background-color: #f9f9f9;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 8px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.my-account{
+    font-size: 20px;
+    padding-top: 8px;
+    cursor: pointer;
+    border: none;
+    background-color:#f9f9f9;
+}
+
+.my-account:hover{
+    color: skyblue;
+}
+
+.app-name{
+    font-size: 20px;
+    font-family: cursive;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-items > ul > li{
+    padding-left: 40px;
+    color: rgb(8, 8, 19);
+}
+
+.nav-items > ul > li:hover{
+    color: skyblue
+}
