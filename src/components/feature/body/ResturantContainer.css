@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: navajowhite;
+    padding: 0px 5px 10px 5px;
 }
 .res-card{
     height: 250px;
@@ -10,6 +11,10 @@
     background-color: beige;
     border-radius: 10px;
     margin-top: 10px;
+    cursor: pointer;
+}
+.res-card:hover{
+    border: 2px solid blanchedalmond;
 }
 
 .rest-image{
