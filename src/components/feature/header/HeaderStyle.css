@@ -1,8 +1,12 @@
 .header{
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     border: 1px solid blanchedalmond;
     background-color: #f9f9f9;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .logo{
     height: 50px;
@@ -29,7 +33,7 @@
     font-size: 20px;
     font-family: cursive;
     position: absolute;
-    top: 25px;
+    top: 18px;
     left: 85px;
 }
 

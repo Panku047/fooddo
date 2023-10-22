@@ -3,7 +3,17 @@
 }
 .search{
     margin-top: 10px;
-    margin-left: 31%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.chip-head{
+    position: relative;
+}
+
+.chip-items{
+    padding-left: 15px;
+    padding-top: 12px;
 }
 
 .search > input{
@@ -13,4 +23,12 @@
     border: 1px solid navajowhite;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.display-food-name{
+    width: 130px;
+}
+
+.resturant-container{
+    padding: 10px;
 }

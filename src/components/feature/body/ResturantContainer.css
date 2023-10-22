@@ -1,5 +1,49 @@
+.rest-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: navajowhite;
+}
 .res-card{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 230px;
     background-color: beige;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.rest-image{
+    border-radius: 10px;
+    height: 100px;
+    width: 230px;
+}
+
+.name-type{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+.rest-type{
+    position: relative;
+    top: 22px;
+    left: 90px;
+
+}
+
+.cusion{
+    position: relative;
+    bottom: 40px;
+}
+
+.rating-devlivery-time{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+.discount{
+    position: relative;
+    bottom: 50px;
 }
