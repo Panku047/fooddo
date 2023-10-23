@@ -30,9 +30,9 @@ const Header = () =>{
                 <ul>
                     <li><NavLink style={linkCSS} to="/home">Home</NavLink></li>
                     <li><NavLink style={linkCSS} to="/about">About</NavLink></li>
-                    <li>Contact</li>
-                    <li>Investor</li>
-                    <li>Cart</li>
+                    <li><NavLink style={linkCSS} to="/contact">Contact</NavLink></li>
+                    <li><NavLink style={linkCSS} to="/investor">Investor</NavLink></li>
+                    <li><NavLink style={linkCSS} to="/cart">Cart</NavLink></li>
                 </ul>
             </div>
         </div>
